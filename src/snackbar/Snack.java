@@ -1,7 +1,5 @@
 package snackbar;
 
-import java.math.BigDecimal;
-
 public class Snack {
     private static int maxId = 0;
 
@@ -50,12 +48,10 @@ public class Snack {
         this.quantity -= qty;
     }
 
-    public BigDecimal getTotalCost(int qty) {
+    public double getTotalCost(int qty) {
         buySnack(qty);
-        BigDecimal bigQuantity = BigDecimal.valueOf(qty);
-        BigDecimal bigCost = BigDecimal.valueOf(cost);
 
-        BigDecimal totalCost = bigCost.multiply(bigQuantity);
+        double totalCost = Math.round((cost * qty) * 100.0) / 100.0;
 
         return totalCost;
     }
