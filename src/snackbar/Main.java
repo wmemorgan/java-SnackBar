@@ -2,6 +2,9 @@ package snackbar;
 
 public class Main {
     private static void runSnackBar() {
+        System.out.println("Instantiate customers");
+        Customer jane = new Customer("Jane", 45.25);
+        Customer bob = new Customer("Bob", 33.14);
 
         System.out.println("Instantiate vending machines");
         VendingMachine foodVendingMachine = new VendingMachine("Food");
