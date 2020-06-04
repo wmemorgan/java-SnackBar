@@ -2,9 +2,18 @@ package snackbar;
 
 public class Main {
     private static void runSnackBar() {
-        Snack chips = new Snack("Chips", 36, 1.75, 1);
-        Snack chocolateBar = new Snack("Chocolate Bar", 36, 1.00, 1);
-        Snack pretzel = new Snack("Pretzel", 30, 2.00, 1);
+
+        System.out.println("Instantiate vending machines");
+        VendingMachine foodVendingMachine = new VendingMachine("Food");
+        VendingMachine drinkVendingMachine = new VendingMachine("Drink");
+        VendingMachine office = new VendingMachine("Office");
+
+        System.out.println("Instantiate snacks");
+        Snack chips = new Snack("Chips", 36, 1.75, foodVendingMachine.getId());
+        Snack chocolateBar = new Snack("Chocolate Bar", 36, 1.00, foodVendingMachine.getId());
+        Snack pretzel = new Snack("Pretzel", 30, 2.00, foodVendingMachine.getId());
+        Snack soda = new Snack("Soda", 24, 2.50, drinkVendingMachine.getId());
+        Snack water = new Snack("Water", 20, 2.75, drinkVendingMachine.getId());
 
         System.out.println("Product ID: " + chips.getId() + " Chips quantity: " + chips.getQuantity());
         System.out.println("Bought 10 at a cost of " + chips.getTotalCost(10));
