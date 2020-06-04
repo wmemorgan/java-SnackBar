@@ -18,6 +18,10 @@ public class Customer {
         return id;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public double getCash() {
         return cashOnHand;
     }

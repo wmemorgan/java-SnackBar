@@ -19,16 +19,18 @@ public class Snack {
         this.vendingMachineId = vendingMachineId;
     }
 
-    // Getters
     public int getId() {
         return id;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public int getQuantity() {
         return quantity;
     }
 
-    // Setters
     public String setName(String name) {
         this.name = name;
         return name;
@@ -39,7 +41,6 @@ public class Snack {
         return cost;
     }
 
-    // Other Methods
     public void addQuantity(int qty) {
         this.quantity += qty;
     }

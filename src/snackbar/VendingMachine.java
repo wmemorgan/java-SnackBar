@@ -16,6 +16,10 @@ public class VendingMachine {
         return id;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public String setName(String name) {
         this.name = name;
         return name;
