@@ -51,6 +51,7 @@ public class Snack {
     }
 
     public BigDecimal getTotalCost(int qty) {
+        buySnack(qty);
         BigDecimal bigQuantity = BigDecimal.valueOf(qty);
         BigDecimal bigCost = BigDecimal.valueOf(cost);
 
