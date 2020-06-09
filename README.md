@@ -144,55 +144,55 @@ Total Cost: $55.00
 
 ## Instructions
 
-* [ ] Please fork and clone this repository. This repository does not have a starter project, so create one inside of the cloned repository folder. Regularly commit and push your code as appropriate.
+* [X] Please fork and clone this repository. This repository does not have a starter project, so create one inside of the cloned repository folder. Regularly commit and push your code as appropriate.
 
 ### The Objects Needed
 
 Create the classes mentioned above and then instantiate these objects from those classes
 
-* [ ] Snack
-* [ ] VendingMachine
-* [ ] Customer
+* [X] Snack
+* [X] VendingMachine
+* [X] Customer
 
-* [ ] Instantiate 2 customers
-  * [ ] Jane with $45.25
-  * [ ] Bob with $33.14
+* [X] Instantiate 2 customers
+  * [X] Jane with $45.25
+  * [X] Bob with $33.14
 
-* [ ] Instantiate 3 Vending Machines
-  * [ ] Food
-  * [ ] Drink
-  * [ ] Office
+* [X] Instantiate 3 Vending Machines
+  * [X] Food
+  * [X] Drink
+  * [X] Office
 
-* [ ] Instantiate 5 snacks
-  * [ ] In Vending Machine Food
-    * [ ] 36 Chips at $1.75
-    * [ ] 36 Chocolate Bar at $1.00
-    * [ ] 30 Pretzel at $2.00
-  * [ ] In Vending Machine Drink
-    * [ ] 24 Soda at $2.50
-    * [ ] 20 Water at $2.75
+* [X] Instantiate 5 snacks
+  * [X] In Vending Machine Food
+    * [X] 36 Chips at $1.75
+    * [X] 36 Chocolate Bar at $1.00
+    * [X] 30 Pretzel at $2.00
+  * [X] In Vending Machine Drink
+    * [X] 24 Soda at $2.50
+    * [X] 20 Water at $2.75
 
 ### Processing
 
-* [ ] Customer 1 (Jane) buys 3 of snack 4 (Soda).
-  * [ ] Print Customer 1 (Jane) Cash on hand.
-  * [ ] Print quantity of snack 4 (Soda).
-* [ ] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
-  * [ ] Print Customer 1 (Jane) Cash on hand.
-  * [ ] Print quantity of snack 3 (Pretzel).
-* [ ] Customer 2 (Bob) buys 2 of snack 4 (Soda).
-  * [ ] Print Customer 2 (Bob) Cash on Hand.
-  * [ ] Print quantity of snack 4 (Soda).
-* [ ] Customer 1 (Jane) finds $10.
-  * [ ] Print Customer 1 (Jane) Cash on Hand.
-* [ ] Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar).
-  * [ ] Print Customer 1 (Jane) Cash on Hand.
-  * [ ] Print quantity of snack 2 (Chocolate Bar).
-* [ ] Add 12 more items to snack 3 (Pretzel).
-  * [ ] Print quantity of snack 3 (Pretzel).
-* [ ] Customer 2 (Bob) buys 3 of snack 3 (Pretzel).
-  * [ ] Print Customer 2 (Bob) Cash on hand.
-  * [ ] Print quantity of snack 3 (Pretzel).
+* [X] Customer 1 (Jane) buys 3 of snack 4 (Soda).
+  * [X] Print Customer 1 (Jane) Cash on hand.
+  * [X] Print quantity of snack 4 (Soda).
+* [X] Customer 1 (Jane) buys 1 of snack 3 (Pretzel).
+  * [X] Print Customer 1 (Jane) Cash on hand.
+  * [X] Print quantity of snack 3 (Pretzel).
+* [X] Customer 2 (Bob) buys 2 of snack 4 (Soda).
+  * [X] Print Customer 2 (Bob) Cash on Hand.
+  * [X] Print quantity of snack 4 (Soda).
+* [X] Customer 1 (Jane) finds $10.
+  * [X] Print Customer 1 (Jane) Cash on Hand.
+* [X] Customer 1 (Jane) buys 1 of snack 2 (Chocolate Bar).
+  * [X] Print Customer 1 (Jane) Cash on Hand.
+  * [X] Print quantity of snack 2 (Chocolate Bar).
+* [X] Add 12 more items to snack 3 (Pretzel).
+  * [X] Print quantity of snack 3 (Pretzel).
+* [X] Customer 2 (Bob) buys 3 of snack 3 (Pretzel).
+  * [X] Print Customer 2 (Bob) Cash on hand.
+  * [X] Print quantity of snack 3 (Pretzel).
 
 ### Stretch Goals
 
