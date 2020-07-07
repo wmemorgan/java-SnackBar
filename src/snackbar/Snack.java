@@ -63,5 +63,18 @@ public class Snack {
         this.vendingMachineId = vendingMachineId;
     }
 
+    // Other methods
+    public void addQuantity(int newQuantity) {
+        this.quantity += newQuantity;
+    }
+
+    public void buySnack(int lessQuantity) {
+        this.quantity -= lessQuantity;
+    }
+
+    public double getTotalCost(int quantity) {
+        return cost * (double) quantity;
+    }
+
 
 }
